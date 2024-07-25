@@ -1,0 +1,219 @@
+
+
+body {
+    font-family: Poppins;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FF7979;
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-position: top;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    box-sizing: border-box;
+
+    flex-wrap: wrap;
+
+    padding-bottom: 50px; 
+    box-sizing: border-box;
+}
+
+header {
+    width: 525px;
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+header p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+fieldset {
+    width: 540px; 
+    background-color: #FFFFFF;
+
+    position: relative;
+
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+fieldset legend {
+    position: absolute;
+    transform: translate(0%, -100%);
+    top: -24px;
+    left: 0;
+    width: 100%;
+    background-color: #5E54A4;
+
+    text-align: center;
+    padding: 17px 0px;
+    box-sizing: border-box;
+
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.try {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-div {
+    width: 100%;
+    /* height: 56px; */
+    box-sizing: border-box;
+    position: relative;
+
+    margin-bottom: 20px;
+}
+
+.input-div label {
+    font-size: 11px;
+    color: #3d3b48;
+}
+
+.inp {
+    width: 100%; 
+    margin-top: 5px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+
+    padding: 15px 0px 15px 32px;
+    box-sizing: border-box;
+
+    color: #3d3b48;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.inp:focus {
+    border: 2px solid #5E54A4;
+    outline: none;
+}
+
+input::placeholder {
+    opacity: 0.75;
+}
+
+.error-sms {
+    color: red;
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+    transform: translate(0%, 100%);
+    font-size: 11px;
+    font-style: italic;
+
+    visibility: hidden;
+}
+
+.error-svg {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+
+    visibility: hidden;
+    
+}
+
+.visible {
+    visibility: visible;
+}
+
+.submit {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 0px;
+    box-sizing: border-box;
+
+    border: none;
+    border-radius: 5px;
+    background: #38CC8B;
+
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    cursor: pointer;
+
+    margin-top: 7px;
+}
+
+fieldset p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #A6A1CF;
+}
+
+fieldset p a {
+    color: #FF7979;
+    font-weight: 600;
+    font-size: 13px;
+
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 550px) {
+
+    main {
+        padding: 90px 24px 50px 24px;
+    }
+
+    header {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    
+    
+    h1 {
+        font-size: 28px;
+    }  
+
+    fieldset {
+        width: 100%; 
+
+    }
+
+    fieldset legend {
+
+        padding: 18px 0px;
+
+    }
+
+    .for-mobile {
+        display: block;
+        margin-top: 10px;
+    }
+    
+
+}
